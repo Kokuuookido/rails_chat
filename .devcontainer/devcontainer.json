@@ -39,7 +39,7 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "app/views/hello/index.html.erb"
+        "app/controllers/messages_controller.rb"
       ]
     },
     "vscode": {
