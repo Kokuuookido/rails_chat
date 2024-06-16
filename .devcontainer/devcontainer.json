@@ -32,7 +32,9 @@
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
   "postAttachCommand": {
-    "server": "bin/dev"
+    "server": "bin/rails server",
+    "css": "bin/rails tailwindcss:watch",
+    "log": "tail -f log/development.log"
   },
   "customizations": {
     "codespaces": {
