@@ -13,6 +13,6 @@ class MessagesController < ApplicationController
   end
 
   def bot_message
-    'プログラミングをマスターしてお金と時間と場所の自由を手に入れよう'
+    'こんばんわ'
   end
 end
