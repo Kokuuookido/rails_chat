@@ -4,3 +4,4 @@ class ChatsController < ApplicationController
     @message = Message.new
   end
 end
+
