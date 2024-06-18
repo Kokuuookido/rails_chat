@@ -1,5 +1,7 @@
 x = gets
-puts gets
+puts x
+puts"一つ目の値を入力してください”
+x = gets
+puts "二つ目の値を入力してください”
 y = gets
-z = x+y
-puts Z
+puts x + Y
